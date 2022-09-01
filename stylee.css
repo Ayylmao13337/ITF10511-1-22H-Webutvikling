@@ -1,0 +1,15 @@
+body{
+    max-width: 70%;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+li{
+    text-align: left;
+}
+img{
+    width: 50%;
+}
+.liste{
+    background-color: gray;
+}
