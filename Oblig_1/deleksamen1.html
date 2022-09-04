@@ -3,17 +3,23 @@
 <!--Deklarer at dette er et html dokument for-->
 <html lang="no">
     <!--La til språk for lettere å finne dokumente for søkemotorer for dette språket-->
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <!--La til " til style.css for hadde ikke som gjorde at stylesheet leste mere en det skulle som tekst mens det skulle være kode-->
+        <title>Web eksamen del 1</title>
+        <!--Flyttet head ut av body-->
+    </head>
     <body>
-        <head>
-            <meta name="viewport" content="width=device-width, initial-scale=1.0">
-            <link rel="stylesheet" type="text/css" href="style.css>
-            <title>Web eksamen del 1</title>
-        </head>
+
         <nav>
-            <h1>Logo</h1>
+            <h2>Logo</h2>
+            <ul>
                 <li> <a href="#">Boatswain schooner</a></li>
                 <li> <a href="#">Account lookout</a></li>
                 <li> <a href="#">Sail ho shrouds</a></li>
+            </ul>
+            <!--La til ul for nav kan ikke være faren li-->
         </nav>
         <header>
             <h1>Yar Pirate Ipsum</h1>
@@ -22,16 +28,19 @@
         </header>
         <div id="main">
             <article>
-                <h1>Prow scuttle</h1>
+                <h2>Prow scuttle</h2>
                 <p>Deadlights jack lad schooner scallywag dance the hempen jig carouser broadside cable strike colors.</p>
                 <a href="#">Les mer</a>
+            </article>
+            <!--Lukket article for det manglet /-->
             <article>
-                <h1>Jack Tar transom</h1>
+                <!--La til en article for det manglet-->
+                <h2>Jack Tar transom</h2>
                 <p>Deadlights jack lad schooner scallywag dance the hempen jig carouser broadside cable strike colors.</p>
                 <a href="#">Les mer</a>
             </article>
             <article>
-                <h1>Trysail Sail</h1>
+                <h2>Trysail Sail</h2>
                 <p>Deadlights jack lad schooner scallywag dance the hempen jig carouser broadside cable strike colors.</p>
                 <a href="#">Les mer</a>
             </article>
