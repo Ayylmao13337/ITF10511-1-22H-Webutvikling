@@ -1,0 +1,60 @@
+#GridContainer{
+    grid-template-areas: 
+    "header",
+    "main",
+    "footer";
+    grid-template-columns: 1fr;
+}
+
+header{
+    grid-area: header;
+}
+
+main{
+    grid-area: main;
+}
+
+footer{
+    grid-area: footer;
+}
+nav{
+    grid-area: header;
+}
+
+nav ul{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    gap: 1rem;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+main{
+    grid-area: main;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+footer{
+    background-color: darkgray;
+}
+
+footer ul{
+    justify-content: center;
+    display: flex;
+    gap: 1rem;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+#top-header{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+@media only screen and (min-width: 900px){
+    
+}

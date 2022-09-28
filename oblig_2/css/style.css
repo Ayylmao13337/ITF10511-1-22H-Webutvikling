@@ -1,0 +1,32 @@
+#GridContainer{
+    display: grid;
+    grid-template-areas: 
+    "header header header",
+    "meny main main",
+    "footer footer footer";
+    grid-template-columns: 1fr,3fr,1fr;
+}
+header{
+    grid-area: header;
+}
+.meny{
+    grid-area: meny;
+}
+main{
+    grid-area: main;
+}
+footer{
+    grid-area: footer;
+}
+header nav ul{
+    display: flex;
+}
+header nav ul li{
+    display: inline-block;
+}
+header nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+}
